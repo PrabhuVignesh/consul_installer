@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: prabhu  
+  description: An Ansible role for installing Consul .
+  company: Prabhu Vignesh.
+  license: opensource
+  min_ansible_version: 1.2
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+  categories:
+  - system
+dependencies: []

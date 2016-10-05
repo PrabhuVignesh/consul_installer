@@ -1,0 +1,5 @@
+---
+- hosts: nodes
+  remote_user: root
+  roles:
+    - { role: ../../consul_installer, sudo: Yes }
