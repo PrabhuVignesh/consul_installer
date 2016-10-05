@@ -11,3 +11,11 @@
 
 - name: extract to /usr/local/bin/ in {{ inventory_hostname }}.
   file: path=/usr/local/bin/consul mode=0655
+
+- name: creating consul.d
+  file: path=/etc/consul.d state=directory
+
+- name: assigning permission for consul.d
+  file:
+    path: /etc/consul.d
+    mode: u=rwX,g=rwX,o=rwX

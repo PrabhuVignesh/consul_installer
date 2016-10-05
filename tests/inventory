@@ -1,6 +1,7 @@
 [nodes]
 172.28.128.16  
 172.28.128.15 
+172.28.128.17 
 
 [nodes:vars]
 ansible_connection=ssh
