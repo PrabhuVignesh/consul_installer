@@ -2,14 +2,14 @@
 - name: Install unzip
   apt: pkg=unzip state=present
 
-- name: Downloading consul binary from official repo to {{ inventory_hostname }}.
+- name: Downloading consul binary from official repo .
   get_url: url={{ consul_binary_link }} dest=/tmp/consul.zip mode=0777
 
-- name: extract to /usr/local/bin/ in {{ inventory_hostname }}.
+- name: extract to /usr/local/bin/.
   command: unzip /tmp/consul.zip -d /usr/local/bin/
   async: 1
 
-- name: extract to /usr/local/bin/ in {{ inventory_hostname }}.
+- name: extract to /usr/local/bin/.
   file: path=/usr/local/bin/consul mode=0655
 
 - name: creating consul.d
