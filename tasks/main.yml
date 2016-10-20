@@ -9,7 +9,7 @@
   command: unzip /tmp/consul.zip -d /usr/local/bin/
   async: 1
 
-- name: extract to /usr/local/bin/.
+- name: Change permission
   file: path=/usr/local/bin/consul mode=0655
 
 - name: creating consul.d

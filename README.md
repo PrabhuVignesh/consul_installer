@@ -29,8 +29,6 @@ default variables: (can be changed while running playbook)
 Example Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
     - hosts: servers
       roles:
          - { role: prabhuvignesh.consul_installer, x: 42 }
@@ -38,7 +36,7 @@ Including an example of how to use your role (for instance, with variables passe
 License
 -------
 
-BSD
+opensource
 
 Author Information
 ------------------
