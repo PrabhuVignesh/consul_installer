@@ -1,4 +1,4 @@
-Role Name
+consul_installer
 =========
 
 Consul is a tool for discovering and configuring services in your infrastructure. It provides several key features:
